@@ -1,0 +1,97 @@
+/* body{
+     background-color: rgba(0, 255, 255, 0.329);
+ } */
+
+#navbar {
+  flex-direction: column;
+}
+
+#navbar::before {
+  height: 94%;
+  width: 106%;
+}
+
+#navbar ul {
+  justify-content: center;
+  margin-top: 0px;
+}
+
+#navbar ul li a {
+  font-size: 0.8rem;
+}
+
+.logo {
+  justify-content: center;
+  height: 77px;
+  margin-top: 0px;
+}
+
+#services {
+  flex-direction: column;
+}
+
+.home h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.para1 {
+  font-size: 1rem;
+}
+
+.home {
+  max-width: 100%;
+  margin-right: auto;
+  margin: auto;
+}
+
+.client-name img {
+  height: 80px;
+  padding: 5px;
+  flex-direction: column;
+}
+
+#clients {
+  flex-wrap: wrap;
+}
+
+.home::before {
+  height: 431px;
+}
+
+.box {
+  font-size: 1rem;
+}
+.services-container h1 {
+  color: black;
+}
+.form input {
+  width: 90%;
+}
+
+.form textarea {
+  width: 90%;
+}
+
+#clients-section h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#contact-us h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.socialMedia {
+  height: 121px;
+}
+.socialMedia img {
+  padding: 10px;
+  height: 42px;
+}
+
+.copyRight {
+  width: 101%;
+  font-size: 0.7rem;
+}
